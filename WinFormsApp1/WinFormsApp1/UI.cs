@@ -1,8 +1,8 @@
 namespace WinFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class UI : Form
     {
-        public Form1()
+        public UI()
         {
             InitializeComponent();
         }
