@@ -1,4 +1,4 @@
-﻿namespace WinFormsApp1
+﻿namespace Fractal_rendering
 {
     partial class Display
     {
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            SuspendLayout();
+            // 
+            // Display
+            // 
+            AutoScaleDimensions = new SizeF(12F, 30F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ControlDarkDark;
+            ClientSize = new Size(1409, 922);
+            Name = "Display";
+            Text = "Preview";
+            Load += Display_Load;
+            ResumeLayout(false);
         }
 
         #endregion

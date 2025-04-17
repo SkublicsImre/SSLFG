@@ -1,6 +1,6 @@
-namespace WinFormsApp1
+namespace Fractal_rendering
 {
-    internal static class Program
+    internal static class AppMain
     {
         /// <summary>
         ///  The main entry point for the application.
